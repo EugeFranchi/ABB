@@ -159,7 +159,7 @@ bool abb_guardar(abb_t *arbol, const char *clave, void *dato){
 	return true;
 }
 
-void *abb_borrar(abb_t *arbol, const char *clave){
+void *abb_borrar(abb_t *arbol, const char *clave){ //HAY QUE MODULARLO, ES LA IDEA EN GENERAL NADA MAS
 	if (!arbol || !arbol->raiz){
 		return NULL;
 	}
